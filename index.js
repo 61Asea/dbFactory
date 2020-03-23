@@ -1,4 +1,4 @@
-const Accessor = require('../dp/accessor');
+const Accessor = require('./accessor');
 
 let accessor = new Accessor();
 
