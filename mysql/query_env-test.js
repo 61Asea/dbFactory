@@ -5,7 +5,7 @@ const Query = require('../sql/query');
 const SqlMaker = require('../sql/sql-maker');
 
 const conn = new Conn({
-    host: '10.47.133.237',
+    host: '127.0.0.1',
     user: 'root',
     password: '123456',
     port: '3306',

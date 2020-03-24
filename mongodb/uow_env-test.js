@@ -6,7 +6,7 @@ const Uow = require('./uow');
 
 const dbName = "test";
 const tableTrace = "trace";
-const url = 'mongodb://root:123456@10.1.12.21:27017';
+const url = 'mongodb://root:123456@127.0.0.1:27017';
 
 describe(`lib/db-factory/mongodb/uow.js`, () => {
     let connPool = new ConnPool(url, dbName);

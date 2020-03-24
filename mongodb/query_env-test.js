@@ -7,7 +7,7 @@ const Query = require('./query');
 const dbName = "testDB";
 const tableLog = "log";
 const tableTrace = "trace";
-const url = 'mongodb://root:123456@10.1.12.21:27017';
+const url = 'mongodb://root:123456@127.0.0.1:27017';
 
 let baidu = {
     id: 3,

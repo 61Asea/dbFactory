@@ -4,7 +4,7 @@ let mysql = require('mysql');
 const Conn = require('./conn');
 
 const DB_CONFIG = {
-    host: '10.47.133.237',
+    host: '127.0.0.1',
     user: 'root',
     password: '123456',
     port: '3306',
